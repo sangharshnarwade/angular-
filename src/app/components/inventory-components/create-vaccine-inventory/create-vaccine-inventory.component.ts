@@ -27,7 +27,7 @@ export class CreateVaccineInventoryComponent implements OnInit {
     }, 
     error => console.log(error));
   }
-  onSubmit() {
+  onSubmit(createForm: { value: any }) {
     this.submitted = true;
     this.save();    
   }

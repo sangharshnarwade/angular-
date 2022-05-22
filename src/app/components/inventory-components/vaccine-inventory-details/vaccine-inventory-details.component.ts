@@ -24,7 +24,7 @@ export class VaccineInventoryDetailsComponent implements OnInit {
       }, error => console.log(error));
   }
   list() {
-    this.router.navigate(['inventories']);
+    this.router.navigate(['/inventories']);
   }
 
 }

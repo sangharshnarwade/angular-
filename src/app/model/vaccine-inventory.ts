@@ -8,8 +8,8 @@ export class VaccineInventory {
     date!: DatePipe;
     quantity : number = 0;
 	  price  : number = 0.0;
-    center_code : number = 0;
-    vaccine_id : number = 0;
+    centerCode : number = 0;
+    vaccineId : number = 0;
     // center!: VaccinationCenter;
     // vaccine!: Vaccine;
     

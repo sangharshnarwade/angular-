@@ -1,6 +1,6 @@
 <div class="panel panel-primary">
     <div class="panel-heading">
-      <h2>Vaccine Inventories</h2>
+      <h3>Vaccine Inventory</h3>
     </div>
     <div class="panel-body">
       <table class="table table-striped">
@@ -10,8 +10,8 @@
             <th>date</th>
             <th>price</th>
             <th>quantity</th>
-            <th>Vaccine_id</th>
-            <th>center_id</th>
+            <th>VaccineId</th>
+            <th>centerCode</th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -21,9 +21,9 @@
             <td>{{inv.date}}</td>
             <td>{{inv.price}}</td>
             <td>{{inv.quantity}}</td> 
-            <td>{{inv.vaccine_id}}</td>
-            <td>{{inv.center_code}}</td>
-            <!-- <td>{{inv.vaccine.vaccineId}}</td> -->
+            <td>{{inv.vaccineId}}</td>
+            <td>{{inv.centerCode}}</td>
+            
             
             <td><button (click)="deleteVaccineInventory(inv.id)" class="btn btn-danger">Delete</button>
                 <button (click)="updateVaccineInventory(inv.id)" class="btn btn-info" style="margin-left: 10px">Update</button>

@@ -1,4 +1,4 @@
-<!-- <h2>Vaccine Inventory Details</h2> 
+<h3>Vaccine Inventory Details</h3> 
 
 <hr/>
 <div *ngIf="inventory">
@@ -6,12 +6,18 @@
     <label><b>Date: </b></label> {{inventory.date}}
   </div>
   <div>
-    <label><b>Center Code: </b></label> {{inventory.center.code}}
+    <label><b>Price: </b></label> {{inventory.price}}
   </div>
   <div>
-    <label><b>Vaccine Count id: </b></label> {{inventory.count.vaccine.vaccineId}}
+    <label><b>Quantity: </b></label> {{inventory.quantity}}
+    <!-- <div>
+      <label><b>Center Code: </b></label> {{inventory.centerCode}}
+    </div> 
+    <div>
+      <label><b>VaccineId: </b></label> {{inventory.vaccineId}}
+    </div>  -->
   </div>  
 </div>
 <p></p>
 <button (click)="list()" class="btn btn-primary">Back to Vaccine Inventory List</button>
- -->
+
